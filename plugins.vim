@@ -1,10 +1,10 @@
 call plug#begin()
-    Plug 'tpope/vim-surround'        " Surrounding ysw)
-    Plug 'tpope/vim-commentary'      " For Commenting gcc & gc
-    Plug 'tpope/vim-sleuth'          " Auto tab parameters
-    Plug 'voldikss/vim-floaterm'     " cool floating terminal
+    Plug 'tpope/vim-surround'
+    Plug 'tpope/vim-commentary'
+    Plug 'tpope/vim-sleuth' " Auto tab parameters
+    Plug 'voldikss/vim-floaterm'
     Plug 'tpope/vim-fugitive'
-    Plug 'airblade/vim-gitgutter'    " git diff markers
+    Plug 'airblade/vim-gitgutter' " git diff markers
     Plug 'michaeljsmith/vim-indent-object'
     Plug 'junegunn/vim-easy-align'
     Plug 'vim-airline/vim-airline'
@@ -34,6 +34,4 @@ call plug#begin()
     Plug 'hrsh7th/cmp-path'
     Plug 'L3MON4D3/LuaSnip'
     Plug 'saadparwaiz1/cmp_luasnip'
-
 call plug#end()
-

@@ -3,9 +3,7 @@ let g:NERDTreeDirArrowExpandable="❯"
 let g:NERDTreeDirArrowCollapsible="~"
 
 let g:NERDTreeGitStatusShowIgnored = 1
-Plug 'preservim/nerdtree' |
-            \ Plug 'Xuyuanp/nerdtree-git-plugin' |
-            \ Plug 'ryanoasis/vim-devicons'
+
 let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Modified'  :'✹',
                 \ 'Staged'    :'✚',

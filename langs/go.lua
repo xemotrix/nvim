@@ -21,7 +21,6 @@ let g:go_def_mapping_enabled = 0
 
 let g:go_fmt_autosave = 1
 let g:go_mod_fmt_autosave = 1
-" let g:go_auto_sameids = 1
 let g:go_imports_autosave = 1
 
 let g:go_highlight_array_whitespace_error = 1
@@ -42,5 +41,4 @@ let g:go_highlight_variable_declarations = 1
 let g:go_highlight_variable_assignments = 1
 let g:go_highlight_diagnostic_errors = 1
 let g:go_highlight_diagnostic_warnings = 1
-
 ]])
