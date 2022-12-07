@@ -16,9 +16,8 @@ require'lspconfig'.gopls.setup{
 }
 
 vim.cmd([[
-autocmd BufWritePost *.go lua vim.lsp.buf.format()
-
 let g:go_gopls_enabled = 0
+let g:go_def_mapping_enabled = 0
 
 let g:go_fmt_autosave = 1
 let g:go_mod_fmt_autosave = 1

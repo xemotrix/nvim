@@ -7,16 +7,11 @@ call plug#begin()
     Plug 'airblade/vim-gitgutter'    " git diff markers
     Plug 'michaeljsmith/vim-indent-object'
     Plug 'junegunn/vim-easy-align'
-    "Plug 'itchyny/lightline.vim'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'catppuccin/vim', { 'as': 'catppuccin' }
-
-    " Review:
-    " Plug 'preservim/tagbar'          " Tagbar for code navigation
-    " Plug 'easymotion/vim-easymotion' " Cool f: <space><space>f [letter]
-    " Plug 'shmup/vim-sql-syntax'
-    " Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+    Plug 'phaazon/hop.nvim'
+    Plug 'preservim/tagbar'
 
     " NerdTree
     Plug 'preservim/nerdtree' |
@@ -30,7 +25,7 @@ call plug#begin()
 
     " LSP
     Plug 'neovim/nvim-lspconfig'
-    Plug 'fatih/vim-go'
+    Plug 'fatih/vim-go' " for syntax highlighting and auto fmt
 
     " CMP
     Plug 'hrsh7th/nvim-cmp'
