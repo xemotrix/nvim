@@ -30,6 +30,7 @@ call plug#begin()
 
     " LSP
     Plug 'neovim/nvim-lspconfig'
+    Plug 'fatih/vim-go'
 
     " CMP
     Plug 'hrsh7th/nvim-cmp'

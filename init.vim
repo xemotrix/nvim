@@ -1,10 +1,10 @@
 source $HOME/.config/nvim/options.vim
 source $HOME/.config/nvim/plugins.vim
 
-luafile $HOME/.config/nvim/chema.lua
-" luafile $HOME/.config/nvim/langs/go.lua
+" luafile $HOME/.config/nvim/chema.lua
+luafile $HOME/.config/nvim/langs/go.lua
 " luafile $HOME/.config/nvim/langs/rust.lua
-" luafile $HOME/.config/nvim/plug-config/cmp.lua
+luafile $HOME/.config/nvim/plug-config/cmp.lua
 
 source $HOME/.config/nvim/plug-config/theme.vim
 source $HOME/.config/nvim/plug-config/telescope.vim
