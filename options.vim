@@ -33,6 +33,9 @@ nnoremap <C-h> :bprev<CR>
 nnoremap <C-l> :bnext<CR>
 nnoremap <leader>bc :bw<cr>
 
+nnoremap <silent><leader>h :nohlsearch<cr>
+nnoremap <silent><leader>H :set hlsearch<CR>
+
 map <leader>tn :tabnew<cr>
 map <leader>tm :tabmove 
 map <leader>tc :tabclose<cr>
