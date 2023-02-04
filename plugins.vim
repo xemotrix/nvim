@@ -34,4 +34,7 @@ call plug#begin()
     Plug 'hrsh7th/cmp-path'
     Plug 'L3MON4D3/LuaSnip'
     Plug 'saadparwaiz1/cmp_luasnip'
+
+    " Copilot
+    Plug 'github/copilot.vim'
 call plug#end()
