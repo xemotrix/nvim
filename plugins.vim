@@ -10,6 +10,7 @@ call plug#begin()
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+    Plug 'rose-pine/neovim'
     Plug 'phaazon/hop.nvim'
     Plug 'preservim/tagbar'
 

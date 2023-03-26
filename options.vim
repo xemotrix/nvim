@@ -21,17 +21,18 @@ set expandtab
 set smartindent
 set noshowmode
 
-nnoremap <leader>h <C-w>h
-nnoremap <leader>j <C-w>j
-nnoremap <leader>k <C-w>k
-nnoremap <leader>l <C-w>l
+nnoremap <silent><leader>h <C-w>h
+nnoremap <silent><leader>j <C-w>j
+nnoremap <silent><leader>k <C-w>k
+nnoremap <silent><leader>l <C-w>l
 
-nnoremap <C-d> <C-d>zz
-nnoremap <C-u> <C-u>zz
-
-nnoremap <C-h> :bprev<CR>
-nnoremap <C-l> :bnext<CR>
-nnoremap <leader>bc :bw<cr>
+nnoremap <silent><C-d> <C-d>zz
+nnoremap <silent><C-u> <C-u>zz
+          
+nnoremap <silent><C-h> :bprev<CR>
+nnoremap <silent><C-l> :bnext<CR>
+nnoremap <silent><leader>bc :bw<cr>
+nnoremap <silent><leader>bo :%bd\|e#\|bd#<cr>
 
 nnoremap <silent><leader>s :nohlsearch<cr>
 nnoremap <silent><leader>S :set hlsearch<CR>

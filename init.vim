@@ -9,6 +9,7 @@ luafile $HOME/.config/nvim/langs/rust.lua
 luafile $HOME/.config/nvim/plug-config/cmp.lua
 luafile $HOME/.config/nvim/plug-config/treesitter.lua
 luafile $HOME/.config/nvim/plug-config/hop.lua
+" luafile $HOME/.config/nvim/plug-config/theme.lua
 
 source $HOME/.config/nvim/plug-config/theme.vim
 source $HOME/.config/nvim/plug-config/telescope.vim
