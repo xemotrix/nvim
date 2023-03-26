@@ -11,4 +11,4 @@ let g:airline_powerline_fonts = 1
 hi DiagnosticError guifg=#d20f39
 hi DiagnosticWarn guifg=#fe640b
 
-
+" hi Normal guibg=NONE ctermbg=NONE

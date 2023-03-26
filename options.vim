@@ -8,7 +8,7 @@ filetype plugin indent on
 set clipboard=unnamed
 set number relativenumber
 set exrc                        " To be able to override those configurations for each project with a local .nvimrc
-set nowrap
+set wrap
 set relativenumber
 set mouse=a
 set scrolloff=8

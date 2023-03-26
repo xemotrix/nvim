@@ -2,7 +2,7 @@ call plug#begin()
     Plug 'tpope/vim-surround'
     Plug 'tpope/vim-commentary'
     Plug 'tpope/vim-sleuth' " Auto tab parameters
-    Plug 'voldikss/vim-floaterm'
+    " Plug 'voldikss/vim-floaterm'
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter' " git diff markers
     Plug 'michaeljsmith/vim-indent-object'
@@ -10,7 +10,7 @@ call plug#begin()
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'catppuccin/vim', { 'as': 'catppuccin' }
-    Plug 'rose-pine/neovim'
+    " Plug 'rose-pine/neovim'
     Plug 'phaazon/hop.nvim'
     Plug 'preservim/tagbar'
 
@@ -33,8 +33,8 @@ call plug#begin()
     Plug 'hrsh7th/cmp-nvim-lsp'
     Plug 'hrsh7th/cmp-buffer'
     Plug 'hrsh7th/cmp-path'
-    Plug 'L3MON4D3/LuaSnip'
-    Plug 'saadparwaiz1/cmp_luasnip'
+    " Plug 'L3MON4D3/LuaSnip'
+    " Plug 'saadparwaiz1/cmp_luasnip'
 
     " Copilot
     Plug 'github/copilot.vim'
